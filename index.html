@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="./CalculatorApp.css">
+</head>
+<body>
+        <h3>Enter two numbers below: </h3>
+    <input id="firstInput" type="text" inputmode="numeric" placeholder="Enter first number"></input>
+    <input id="secondInput" type="text" inputmode="numeric" placeholder="Enter second number"></input>
+
+    <p>Select operation you want to perform:</p>
+
+    <button onclick="add()" >Addition</button>
+    <button onclick="subtract()" >Subtraction</button>
+    <button onclick="multiply()" >Multiply</button>
+    <button onclick="divide()" >Divide</button>
+
+    <p>Output of two number if chosen operation is performed: </p>
+
+    <h2 id="outputNumber"></h2>
+    <script src="./CalculatorApp.js"></script>
+</body>
+</html>
